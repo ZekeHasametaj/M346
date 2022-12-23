@@ -25,4 +25,4 @@ Buckets erstellen
 : mit dem Befehl mb(make-bucket) haben wir einen Bucket erstellt &rarr; Befehl: aws s3 mb s3://Name-des-Buckets
 
 Lambda erstellen
-: aws lambda create-function \<br>--function-name my-function \<br>  --runtime nodejs12.x \<br>  --handler index.handler \<br>  --zip-file fileb://function.zip \<br>  --role arn:aws:iam::123456789012:role/lambda-role \<br>  --memory-size 128 \<br>  --timeout 30
+: aws lambda create-function \ <br>--function-name my-function \ <br>  --runtime nodejs12.x \ <br>  --handler index.handler \ <br>  --zip-file fileb://function.zip \ <br>  --role arn:aws:iam::123456789012:role/lambda-role \ <br>  --memory-size 128 \ <br>  --timeout 30
