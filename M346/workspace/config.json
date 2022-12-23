@@ -1,0 +1,6 @@
+{
+    "input_bucket_name": "input-test-bucket-m346-1b",
+    "output_bucket_name": "output-test-bucket-m346-1b",
+    "lambda_name": "upload",
+    "statement_id": ""
+}
